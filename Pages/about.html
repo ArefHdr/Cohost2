@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../Css/cohost-framework.css">
+    <link rel="stylesheet" href="../Fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="../Css/resetCodes.css">
+    <link rel="stylesheet" href="../Css/about.css">
+    <link rel="stylesheet" href="../Css/main.css">
+    <link rel="stylesheet" href="../Css/media-queries.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co Host</title>
+</head>
+
+<body onload="load()">
+    <header class="main-header">
+        <nav class="header home-header">
+            <div class="container">
+                <div class="line">
+                    <div class="part-lg-4">
+                        <div class="main-header__title">
+                            <a href="#">CoHost</a>
+                        </div>
+                    </div>
+                    <div class="part-lg-8">
+                        <div class="main-header__items">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a class="main-header__items--active" href="about.html">about</a></li>
+                                <li><a href="domain.html">Domain</a></li>
+                                <li><a href="hosting.html">hosting</a></li>
+                                <li><a href="blog.html">blog</a></li>
+                                <li><a href="contact.html"> Contact</a></li>
+                                <li><a class="header-btn" href="#">get started</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header>
+        <nav class="menu-header">
+            <div class="container">
+                <div class="line align-items-center justify-content-between">
+                    <div class="part-sm-6">
+                        <div class="menu-header__title">
+                            <a href="https://preview.colorlib.com/#cohost">
+                                CoHost
+                            </a>
+                        </div>
+                    </div>
+                    <div class="part-sm-6">
+                        <div class="menu-header__icon">
+                            <a href="javascript:void(0);" class="menu-header__btn" onclick="headerMenu()">
+                                <i class="fa fa-bars"></i>
+                                menu
+                            </a>
+                        </div>
+                    </div>
+                    <div class="part-sm-12">
+                        <div id="menu-header" class="menu-header__item menu-header__dec">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="domain.html">Domain</a></li>
+                                <li><a href="hosting.html">Hosting</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li class="menu-header__item--start"><a href="home.html">Get Started</a>
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="container">
+            <div class="home__dec">
+                <span class="mr-1">
+                    <a href="home.html">home</a>
+                    <i class="fas fa-chevron-right"></i>
+                </span>
+                <span> about</span>
+                <h1>about</h1>
+            </div>
+        </div>
+    </section>
+    <section class="offering pb-4">
+        <div class="container reveal">
+            <div class="line">
+                <div class="part-sm-12 part-lg-6">
+                    <div class="offering__bg">
+                        <img class="img-fluid" src="../Images/about.webp" alt="offering">
+                    </div>
+                </div>
+                <div class="part-sm-12 part-lg-6 p-6-3">
+                    <div class="offering__options mb-3">
+                        <div>
+                            <a class="offering__options--active" href="#">What we do</a>
+                        </div>
+                        <div>
+                            <a href="#">Our mission</a>
+                        </div>
+                        <div>
+                            <a href="#">Our goal</a>
+                        </div>
+                    </div>
+                    <div class="offering__exp">
+                        <div class="mb-2 offering__exp__header">
+                            <h2>Offering Reliable Hosting</h2>
+                        </div>
+                        <div class="offering__exp__dec">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                                the Semantics, a large language ocean.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam
+                                sunt iste dolores consequatur</p>
+                        </div>
+                        <div class="offering__exp__btns mt-2">
+                            <a href="#">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="count">
+        <div class="container reveal">
+            <div class="count__title">
+                <p>MORE THAN 12,000 WEBSITES TRUSTED HOSTED</p>
+            </div>
+            <div class="count__items">
+                <div>
+                    <strong id='0101'>12,000</strong>
+                    <p>CMS Installation</p>
+                </div>
+                <div>
+                    <strong id='0102'>100</strong>
+                    <p>Awards Won</p>
+                </div>
+                <div>
+                    <strong id='0103'>10,000 </strong>
+                    <p>Registered Domains</p>
+                </div>
+                <div>
+                    <strong id='0104'>9,000</strong>
+                    <p>Satisfied Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services mt-3 py-5">
+        <div class="container">
+            <div class="line">
+                <div class="part-lg-6 part-sm-12">
+                    <div class="services__exp">
+                        <div class="services__bg">
+                            <img class="img-fluid" src="../Images/undraw_podcast_q6p7.svg" alt="" srcset="">
+                        </div>
+                        <div class="services__dec mt-4 text-center-md reveal">
+                            <h2 class="mb-2 ">Our Main Services</h2>
+                            <p class="p-dec"> Even the all-powerful Pointing has no control about the blind texts it is
+                                an almost
+                                unorthographic. A small river named Duden flows by their place and supplies it with the
+                                necessary regelialia. It is a paradisematic country.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-lg-6  part-sm-12">
+                    <div class="services__possibilities">
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <i class="fas fa-window-restore"></i>
+                            </div>
+                            <div class="services__items-exp mt-3">
+                                <h3>Cloud VPS</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <i class="fas fa-vr-cardboard"></i>
+                            </div>
+                            <div class="services__items-exp mt-3">
+                                <h3>Share</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="services__items-exp mt-3">
+                                <h3>VPS</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__icon">
+                                <i class="fas fa-sync"></i>
+                            </div>
+                            <div class="services__items-exp mt-3">
+                                <h3>Dedicated</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customer mt-5">
+        <div class="container reveal">
+            <div class="line justify-content-center text-center">
+                <div class="part-md-7 part-sm-12">
+                    <div class="section-title">
+                        <p class="section-title__dec">CUSTOMER SAYS</p>
+                        <h2 class="section-title__header mb-2">Our satisfied customer says</h2>
+                        <p class="section-title__dec">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live
+                            the
+                            blind texts. Separated they live in</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="customer__box">
+                <div class="customer__items">
+                    <div class="customer__profile">
+                        <span>
+                            <i class="fas fa-quote-left"></i>
+                        </span>
+                    </div>
+                    <div class="customer__exp">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    </div>
+                    <div class="customer__name">
+                        <strong>Mark Web</strong>
+                        <span>Interface Designer</span>
+                    </div>
+                </div>
+                <div class="customer__items">
+                    <div class="customer__profile pic-2">
+                        <span>
+                            <i class="fas fa-quote-left"></i>
+                        </span>
+                    </div>
+                    <div class="customer__exp">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    </div>
+                    <div class="customer__name">
+                        <strong>Mark Web</strong>
+                        <span>Interface Designer</span>
+                    </div>
+                </div>
+                <div class="customer__items">
+                    <div class="customer__profile pic-3">
+                        <span>
+                            <i class="fas fa-quote-left"></i>
+                        </span>
+                    </div>
+                    <div class="customer__exp">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    </div>
+                    <div class="customer__name">
+                        <strong>Mark Web</strong>
+                        <span>Interface Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hosting">
+        <div class="container">
+            <div class="line justify-content-center text-center">
+                <div class="part-md-7 part-sm-12">
+                    <div class="section-title">
+                        <p class="section-title__dec">Services</p>
+                        <h2 class="section-title__header mb-2">How it works</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="hosting__title">
+                <div class="hosting__options">
+                    <a class="hosting__options--active" href="#">
+                        Next gen VPS
+                    </a>
+                    <a href="#">
+                        Performance
+                    </a>
+                    <a href="#">
+                        Effectiveness
+                    </a>
+                </div>
+            </div>
+            <div class="hosting__exp mt-5">
+                <div class="line align-items-center">
+                    <div class="part-lg-6">
+                        <div class="hosting__bg">
+                            <img class="img-fluid" src="../Images/hosting.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="part-lg-6 mt-3">
+                        <div class="hosting__dec">
+                            <h2>Next gen VPS hosting</h2>
+                            <p class="mt-1">Far far away, behind the word mountains, far from the countries
+                                Vokalia and Consonantia,
+                                there
+                                live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                                Semantics,
+                                a large language ocean.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam
+                                sunt
+                                iste dolores consequatur</p>
+                            <div class="main-btns">
+                                <a class="d-inline" href="#">
+                                    Get in touch
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="media py-6">
+        <div class="container reveal">
+            <div class="media__box">
+                <div>
+                    <a href="#">
+                        <img class="img-fluid" src="../Images/partner-1.webp" alt="microsoft" srcset="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img class="img-fluid" src="../Images/partner-2.webp" alt="android" srcset="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img class="img-fluid" src="../Images/partner-3.webp" alt="java" srcset="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img class="img-fluid" src="../Images/partner-4.webp" alt="google" srcset="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img class="img-fluid" src="../Images/partner-5.webp" alt="adobe" srcset="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer py-5">
+        <div class="container reveal">
+            <div class="line align-items-center mb-3 pb-3 rgap-1 text-center-md">
+                <div class="part-md-6 part-sm-12">
+                    <div class="footer__title">
+                        <span>GET AN EASY QUOTE</span>
+                        <h2>Sign Up For Web Hosting Today!</h2>
+                    </div>
+                </div>
+                <div class="part-md-3 part-sm-12">
+                    <div class="footer__title">
+                        <span>Starting at Only</span>
+                        <strong>$4.50</strong>
+                        <small>/mo</small>
+                    </div>
+                </div>
+                <div class="part-md-3 part-sm-12">
+                    <div class="footer__title">
+                        <a href="#">Get started now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="line mb-3 pb-3 rgap-2 p0-md">
+                <div class="part-sm-12 part-md-6 part-lg-3">
+                    <div class="footer__items--active footer__items">
+                        <div class="footer__items__title footer__dec mb-2">
+                            <h3>CoHost</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+                        <div class="footer__active__icons">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-sm-12 part-md-6 part-lg-3">
+                    <div class="footer__items">
+                        <div class="footer__items__title">
+                            <h3>Unseful Links</h3>
+                        </div>
+                        <div class="footer__options">
+                            <ul>
+                                <li><a href="#">Servers</a></li>
+                                <li><a href="#">Windows Hosting</a></li>
+                                <li><a href="#">Cloud Hosting</a></li>
+                                <li><a href="#">OS Servers</a></li>
+                                <li><a href="#">Linux Servers</a></li>
+                                <li><a href="#">Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-sm-12 part-md-6 part-lg-3">
+                    <div class="footer__items">
+                        <div class="footer__items__title">
+                            <h3>Navigational</h3>
+                        </div>
+                        <div class="footer__options">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Domain</a></li>
+                                <li><a href="#">Hosting</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-sm-12 part-md-6 part-lg-3">
+                    <div class="footer__items">
+                        <div class="footer__items__title">
+                            <h3>Office</h3>
+                        </div>
+                        <div class="footer__options footer__items__about">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <P>203 Fake St. Mountain View, San Francisco, California, USA</P>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone-alt"></i>
+                                    <a href="#">+2 392 3929 210</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="#">info@yourdomain.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="part-md-12">
+                    <p class="footer__copyright">Copyright ©2023 All rights reserved | This template is made with<i
+                            class="fas fa-heart mx-5px"></i> by Colorlib</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../Js/reveal.js"></script>
+    <script src="../Js/scroll.js"></script>
+    <script src="../Js/counting.js"></script>
+    <script src="../Js/dropDown.js"></script>
+</body>
+
+</html>

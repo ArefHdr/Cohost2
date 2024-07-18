@@ -1,0 +1,58 @@
+.contact__title h3 {
+    line-height: 1.5;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.contact__info {
+    white-space: nowrap;
+}
+
+.contact__info span {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #666666;
+}
+
+.contact__info a {
+    line-height: 1.5;
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.contact__form {
+    display: grid;
+    gap: 1rem;
+}
+
+.contact__form input,
+textarea {
+    outline: none;
+    padding: 10px;
+    color: #000;
+    font-size: 16px;
+}
+
+.contact__form textarea {
+    height: inherit !important;
+    width: inherit !important;
+}
+
+.contact__form input:focus,
+textarea:focus {
+    outline: 1px solid #a19898;
+}
+
+.contact__form button {
+    background-color: #6927ff;
+    color: #fff;
+    outline: none;
+    border: 1px solid #6927ff;
+    padding: 16px 48px;
+    border-radius: 30px;
+    max-width: max-content;
+    cursor: pointer;
+}

@@ -1,0 +1,114 @@
+@import "home2";
+@import "loops";
+$font-size-lg: 40px;
+$font-size-md: 30px;
+$font-size-sm: 20px;
+$font-size-xsm: 15px;
+$cololr-primary: yellow;
+$color-success: green;
+$color-error: orange;
+$color-wrong: red;
+$border-solid: 1px solid black;
+$none: none;
+$center: center;
+$left: left;
+$right: right;
+$d-flex: flex;
+$justify-between: space-between;
+
+@function doublefontsize($fontsize) {
+    @return $fontsize * 3;
+}
+
+@function devide-size($devide) {
+    @return $devide/2;
+}
+
+
+@mixin list-style($params...) {
+    display: $d-flex;
+    justify-content: $justify-between;
+    align-items: $center;
+    transition: $params;
+}
+
+@mixin bg-effect($params...) {
+    transition: $params;
+}
+
+%button {
+    color: white;
+    background-color: orange;
+    font-size: $font-size-md;
+    padding: 20px;
+    border: doublefontsize(2px) solid #000;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #13cece;
+        color: black;
+        @include bg-effect(background-color 2s, color 3s);
+    }
+}
+
+.btn {
+    @extend %button;
+}
+
+header {
+    height: 200px;
+    padding: 2rem;
+    border: $border-solid;
+    width: 70%;
+    margin: 0 auto;
+    display: $d-flex;
+    justify-content: $center;
+    align-items: $center;
+
+    nav {
+        background-color: $color-success;
+        padding: 1rem;
+        width: 50%;
+        height: 50%;
+    }
+}
+
+.first-list {
+    display: flex;
+    justify-content: $justify-between;
+
+    &:hover {
+        @include list-style(background-color 1s, padding 2s);
+        background-color: $cololr-primary;
+        padding: 5rem;
+    }
+
+    list-style: none;
+
+    li {
+        background-color: $color-error;
+        padding: 0.8rem;
+
+        &:hover {
+            a {
+                color: $color-wrong;
+                font-size: doublefontsize($font-size-lg);
+            }
+        }
+
+        a {
+            text-decoration: $none;
+            font-size: $font-size-xsm;
+            color: darken($color: #000000, $amount: 10%);
+            border: doublefontsize(1px) solid rgb(123, 253, 151);
+            border: devide-size(20px) dotted green;
+
+        }
+    }
+
+
+}
+
+.second-list {
+    @extend .first-list;
+}

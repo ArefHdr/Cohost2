@@ -1,0 +1,36 @@
+.optional__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.optional__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.optional__steps {
+    background: #6927ff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optional__steps i {
+    font-size: 40px;
+}
+
+.optional__title {
+    font-size: 22px;
+    font-weight: 500;
+}

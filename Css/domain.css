@@ -1,0 +1,52 @@
+/* table */
+.domain-pricing__table{
+    overflow-x: auto;
+}
+.left-th {
+    color: #fff;
+    background: #6927ff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding: 20px 10px !important;
+    vertical-align: middle;
+}
+.table__btns {
+    background: #6927ff;
+    border: 1px solid #6927ff;
+    color: #fff;
+    outline: none;
+    border-radius: 30px;
+    text-decoration: none !important;
+    padding: 0.29rem 0.70rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+.table__btns:hover {
+    background: #fff;
+    border: 1px solid #6927ff;
+    color: #6927ff;
+    transition: 0.3s;
+}
+.domain-pricing__table table tr td {
+    border-bottom: 1px solid rgba(163, 150, 150, 0.1) !important;
+    border-collapse: collapse;
+    padding: 22px 10px !important;
+    font-weight: 500;
+    vertical-align: middle;
+}
+table {
+    height: 564px;
+}
+thead tr th {
+    padding: 32px 10px !important;
+    color: #fff !important;
+    font-weight: 500;
+    background-color: #38d39f !important;
+    border: 1px solid transparent !important;
+    vertical-align: middle;
+}
+td:nth-child(odd) {
+    background-color: #f0f0f0;
+}

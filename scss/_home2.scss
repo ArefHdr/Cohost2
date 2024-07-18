@@ -1,0 +1,27 @@
+// h1 {
+//     font-weight: 300; //integer
+//     width: 10rem;
+//     line-height: 1.5rem; //decimal
+// }
+
+// h2 {
+//     font-family: 'Courier New', Courier, monospace;
+// }
+
+// h3 {
+//     color: green;
+//     background-color: #fff;
+//     border: rgb(#fff, #000, #fff444);
+//     color: rgba(red, green, blue, 0.5);
+//     background-color: hsl(hue, saturation, lightness);
+// }
+$c: "color";
+$colors: (
+    primary:red,
+    secondary:green,
+    tertiary:yellow
+);
+
+.header {
+    background-#{$c}: map-get($map: $colors, $key: primary);
+}
